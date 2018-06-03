@@ -59,6 +59,8 @@ function printQuote() {
         buildQuote += '<span class="tags" style="visibility: hidden">' + currentQuote.tags.join(', ') + '</span>';
     }
 
+
+
     // Display quote, call the random background color function, set the previousQuote variable 
     //equal to the currentQuote to compare the next time the function is called
     quoteBox.innerHTML = buildQuote;
